@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Akan name generator</title>
 </head>
 
@@ -58,7 +60,34 @@
 
           </div>
           <div class="col-md-6">
-            
+            <form class="form">
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">First Name:</label>
+                <input type="email" class="form-control" id="name" placeholder="Enter your first name" name="name">
+              </div>
+              <div class="mb-3">
+                <label for="year" class="form-label">Year of birth:</label>
+                <input type="text" class="form-control" id="yob" placeholder="Enter your year of birth">
+              </div>
+              <div class="mb-3">
+                <label for="year" class="form-label">Month of birth:</label>
+                <input type="text" class="form-control" id="birth_month" placeholder="Enter your month of birth" >
+              </div>
+              <div class="mb-3">
+                <label for="year" class="form-label">Year:</label>
+                <input type="text" class="form-control" id="dob" placeholder="Enter your year of birth">
+              </div>
+              <label for="year" class="form-label">Select your Gender:</label>
+              <select id="gender" class="form-select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select><br>
+              <div class="buttons">
+                <input type="button" value="submit" class="btn btn-primary">
+                <input type="button" value="clear" class="btn btn-primary">
+              </div>
+              
+            </form>
           </div>
         </div>
       </div>
