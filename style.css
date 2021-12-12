@@ -39,6 +39,8 @@ form{
   background-color: rgb(0,0,0, 0.3);
   width: 70%;
   padding: 5%;
+  border-radius: 10px;
+  border: rgb(144,80,161) solid;
 }
 label{
   color: #fff;
