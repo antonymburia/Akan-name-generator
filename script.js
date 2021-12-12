@@ -9,4 +9,8 @@ function namakangeneratore() {
   // get exact date and month
   var current_year = new Date().getFullYear();
   var month = b_month -1;
-}
+
+  // store names and days arrays
+  var male_names = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+  var female_names = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];}
+  var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
