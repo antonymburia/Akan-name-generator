@@ -13,10 +13,15 @@ function akangenerator() {
   if (year < 1000 || year > current_year) {
     alert('enter a valid year');
   } else {
-    if (month < 1 || month > 31) {
+    if (month < 1 || month > 12) {
       alert('enter a valid month');
+    } 
+    else {
+      if (day < 1 || day > 31) {
+        alert('enter a valid day');
+      }
     }
-  }
+  }  
 
   // store names and days arrays
   var male_names = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
