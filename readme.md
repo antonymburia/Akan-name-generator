@@ -3,7 +3,7 @@
 ## Description
 This is a web app that accepts a user's date of birth and generates their akan name
 ## Screenshot
-<img src="iScreenshot from 2021-12-12 05-02-24.png" alt="">
+<img src="Screenshot from 2021-12-12 05-02-24.png" alt="">
 
 
 ## Setup/Installation Requirements
