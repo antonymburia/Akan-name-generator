@@ -22,11 +22,14 @@
 th{
   color: #000;
   padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
 }
 td{
   margin: 8%;
   border-radius: 20px;
   padding: 10px;
+  font-family: 900;
 }
 .para2{
   margin: 5%;
