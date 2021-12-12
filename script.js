@@ -40,3 +40,10 @@ function akangenerator() {
     }
   }
 }
+// clear form function
+function newFunction() {
+  
+}
+function clearform() {
+  document.getElementById("form").reset();
+}

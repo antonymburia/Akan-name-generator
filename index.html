@@ -64,7 +64,8 @@
           <!-- data entry section -->
           <div align="center" class="col-md-6">
             <h2>Enter your details below and Discover your Akan Name</h2>
-            <form align="center" class="form">
+            <form align="center" class="form" id="form">
+              <!-- output -->
               <div class="akan">
                 <p id="message"></p>
               </div>
@@ -91,13 +92,13 @@
               </select><br>
               <div class="buttons">
                 <input type="button" value="submit" class="btn btn-primary" onclick="akangenerator()">
-                <input type="button" value="clear" class="btn btn-primary">
+                <input type="button" value="clear" class="btn btn-primary" onclick="clearform()">
               </div>
               
             </form>
           </div>
         </div>
-        <!-- output -->
+        
         
       </div>
     </div>
